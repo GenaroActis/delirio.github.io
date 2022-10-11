@@ -1,0 +1,132 @@
+.header {
+    background-image: url(img/header.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100vw;
+    height: 45vw;
+    display: grid;
+    align-items: center;
+    -ms-flex-align: center;
+}
+
+.divText {
+    font-family: bebas neue;
+    align-items: center;
+    display: grid;
+    text-align: center;
+    color: #353535;
+}
+.headerH1 {
+    font-size: 150px;
+    text-shadow: 0px -6px rgba(0, 0, 0, 0.308);
+}
+.headerH2 {
+    font-size: 50px;
+    text-shadow: 0px -6px rgba(0, 0, 0, 0.308);
+}
+@media (max-width: 735px){
+    .header {
+        background-image: url(img/headercel.png);
+        height: 90vw;
+    }
+    .header .divText .headerH1 {
+        font-size: 50px;
+        text-shadow: 0px -4px rgba(0, 0, 0, 0.308);
+    }
+    .header .divText .headerH2 {
+        font-size: 30px;
+        text-shadow: 0px -2px rgba(0, 0, 0, 0.308);
+    }
+}
+.carrusel {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.carrusel-items {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 30px 0px;
+}
+
+.carrusel-item {
+    min-width: 600px;
+    max-width: 600px;
+    height: 600px;
+    outline: 5px solid #72c000;
+    cursor: pointer;
+}
+
+.carrusel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carrusel-item:hover {
+    transform: scale(1.2);
+}
+footer {
+    background-image: url(img/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100vw;
+    height: 40vw;
+    display: grid;
+    align-items: center;
+    -ms-flex-align: center;
+}
+.btn-wsp{
+    position:fixed;
+    width: 90px;
+    height: 75px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:70px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    text-decoration: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
+.btn-inst{
+    position:fixed;
+    width: 90px;
+    height: 75px;
+    line-height: 63px;
+    bottom:110px;
+    right:25px;
+    background:linear-gradient(90deg, rgba(246,201,31,1) 0%, rgba(234,33,7,1) 47%, rgba(185,0,151,1) 100%);
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:70px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-inst:hover{
+    text-decoration: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-inst{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
