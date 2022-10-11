@@ -19,10 +19,12 @@
 .headerH1 {
     font-size: 150px;
     text-shadow: 0px -6px rgba(0, 0, 0, 0.308);
+    color: #353535;
 }
 .headerH2 {
     font-size: 50px;
     text-shadow: 0px -6px rgba(0, 0, 0, 0.308);
+    color: #353535;
 }
 @media (max-width: 735px){
     .header {
@@ -102,6 +104,7 @@ footer {
         width:63px;
         height:63px;
         line-height: 66px;
+        font-size: 50px;
 	}
 }
 .btn-inst{
@@ -128,5 +131,6 @@ footer {
         width:63px;
         height:63px;
         line-height: 66px;
+        font-size: 50px;
 	}
 }
