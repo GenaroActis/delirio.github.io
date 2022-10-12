@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100vw;
     width: 100vw;
-    height: 45vw;
+    height: 55vw;
     display: grid;
     align-items: center;
     -ms-flex-align: center;
@@ -20,12 +20,13 @@ body {
     color: #353535;
 }
 .headerH1 {
-    font-size: 150px;
+    font-size: 10vw;
     text-shadow: 0px -6px rgba(0, 0, 0, 0.308);
     color: #353535;
+    margin-top: -5%;
 }
 .headerH2 {
-    font-size: 50px;
+    font-size: 4vw;
     text-shadow: 0px -6px rgba(0, 0, 0, 0.308);
     color: #353535;
 }
