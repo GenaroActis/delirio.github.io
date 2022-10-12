@@ -38,9 +38,8 @@ header svg {
     margin-top: -12%;
 }
 @media (max-width: 735px){
-    .header {
-        background-image: url(img/headercel.png);
-        height: 90vw;
+    header svg {
+        top: -5%;
     }
     .header .divText .headerH1 {
         font-size: 50px;
